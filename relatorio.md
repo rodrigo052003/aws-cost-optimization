@@ -8,6 +8,8 @@ Responsável: Rodrigo Silva da Luz
 Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Rodrigo Silva da Luz. O objetivo do projeto foi elencar 3 serviços AWS com a finalidade de realizar a diminuição de custos operacionais imediatos e otimizar o uso de recursos em nuvem.
 
 ## Descrição do Projeto
+A arquitetura proposta integra os serviços AWS de forma coordenada, onde o AWS Lambda atua como núcleo de processamento acionado por eventos de usuários, armazenando dados no Amazon S3 e utilizando recomendações do AWS Compute Optimizer para ajustes contínuos. Essa abordagem substitui o modelo tradicional baseado em instâncias EC2 24/7 por um modelo dinâmico, escalável e orientado à eficiência de custos. 
+
 O projeto de implementação focou em transformar gastos fixos em variáveis e automatizar a economia de recursos. As etapas do projeto foram:
 
 Etapa 1: 
