@@ -1,5 +1,7 @@
 # 🏗️ Arquitetura da Solução – Otimização de Custos AWS
 
+<img width="1216" height="451" alt="arquitetura-aws" src="https://github.com/user-attachments/assets/7e7766f4-4427-48db-b9b1-8f8cf34252d2" />
+
 Este repositório foi criado para o desafio de projeto da Digital Innovation One (DIO), com foco em arquitetura de nuvem e práticas de FinOps utilizando a Amazon Web Services (AWS).
 
 ---
