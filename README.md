@@ -1,4 +1,4 @@
-### Arquitetura da
+### Arquitetura da Sol
 <img width="1216" height="451" alt="arquitetura-aws" src="https://github.com/user-attachments/assets/7e7766f4-4427-48db-b9b1-8f8cf34252d2" />
 Otimização de Custos AWS - Desafio DIO 
 
