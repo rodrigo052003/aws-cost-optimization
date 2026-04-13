@@ -14,7 +14,7 @@ A proposta demonstra como a transição de uma infraestrutura tradicional para u
 
 ---
 
-## Arquitetura da Solução
+## Arquitetura da Soluç
 
 A arquitetura adotada é baseada em um modelo **serverless e orientado a eventos**, com o seguinte fluxo:
 
