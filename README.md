@@ -1,3 +1,4 @@
+<img width="1216" height="451" alt="arquitetura-aws" src="https://github.com/user-attachments/assets/7e7766f4-4427-48db-b9b1-8f8cf34252d2" />
 # Otimização de Custos AWS - Desafio DIO 
 
 Este repositório foi criado para o desafio de projeto da **Digital Innovation One (DIO)**, focado em arquitetura de nuvem e redução de custos (FinOps) utilizando a **Amazon Web Services (AWS)**.
