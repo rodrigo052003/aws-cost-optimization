@@ -41,7 +41,7 @@ Essa abordagem elimina a necessidade de servidores em execução contínua, adot
 - Redução de custos com dados pouco acessados
 - Alta disponibilidade sem gerenciamento manual
 
-### 🔹 AWS Compute Optimizer
+### AWS Compute Optimizer
 - Análise de uso com Machine Learning
 - Identificação de recursos superdimensionados
 - Recomendações para redução de custos
