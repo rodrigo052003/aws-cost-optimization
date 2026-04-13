@@ -20,7 +20,7 @@ A arquitetura adotada é baseada em um modelo **serverless e orientado a eventos
 
 1. Usuários realizam requisições ou enviam dados
 2. Eventos acionam funções no AWS Lambda
-3. O Lambda processa as informações sob demanda
+3. O AWS Lambda processa as informações sob demanda
 4. Os dados são armazenados no Amazon S3
 5. O S3 aplica automaticamente políticas de otimização com Intelligent-Tiering
 6. O AWS Compute Optimizer analisa o uso da infraestrutura e recomenda melhorias
