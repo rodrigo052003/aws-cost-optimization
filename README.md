@@ -1,31 +1,73 @@
-### Arquitetura da Soluç
-<img width="1216" height="451" alt="arquitetura-aws" src="https://github.com/user-attachments/assets/7e7766f4-4427-48db-b9b1-8f8cf34252d2" />
-Otimização de Custos AWS - Desafio DIO 
+# 🏗️ Arquitetura da Solução – Otimização de Custos AWS
 
-Este repositório foi criado para o desafio de projeto da **Digital Innovation One (DIO)**, focado em arquitetura de nuvem e redução de custos (FinOps) utilizando a **Amazon Web Services (AWS)**.
-
-## Sobre o Projeto
-O objetivo deste projeto é propor uma solução estratégica para a empresa fictícia **Abstergo Industries**, selecionando serviços da AWS que permitam uma redução imediata de gastos operacionais sem perder a eficiência técnica.
-
-O projeto demonstra como a transição de modelos de infraestrutura rígidos para modelos escaláveis e inteligentes pode impactar diretamente o faturamento mensal de uma organização.
-
-## Serviços AWS Utilizados
-Para este desafio, foram selecionados os seguintes serviços:
-* **AWS Lambda**: Migração para arquitetura Serverless.
-* **Amazon S3 Intelligent-Tiering**: Otimização automática de armazenamento.
-* **AWS Compute Optimizer**: Recomendações de provisionamento baseadas em Machine Learning.
-
-## Estrutura do Repositório
-* `relatorio.md`: Documentação detalhada com as etapas de implementação e casos de uso de cada ferramenta.
-
-## Como Visualizar o Relatório
-Você pode acessar o relatório completo de implementação clicando no link abaixo:
-[Visualizar Relatório de Implementação](./relatorio.md)
+Este repositório foi criado para o desafio de projeto da Digital Innovation One (DIO), com foco em arquitetura de nuvem e práticas de FinOps utilizando a Amazon Web Services (AWS).
 
 ---
 
-### Autor
-**Rodrigo Silva da Luz** *Estudante de Ciência da Computação (UFRPE) e entusiasta de tecnologia.*
+## 📌 Sobre o Projeto
+
+O objetivo deste projeto é propor uma solução estratégica para a empresa fictícia **Abstergo Industries**, visando à redução imediata de custos operacionais sem comprometer a eficiência técnica.
+
+A proposta demonstra como a transição de uma infraestrutura tradicional para uma arquitetura moderna, escalável e orientada a eventos pode impactar diretamente os custos mensais de uma organização.
 
 ---
-*Este projeto faz parte do portfólio pessoal de estudos em Cloud Computing.*
+
+## ☁️ Arquitetura da Solução
+
+A arquitetura adotada é baseada em um modelo **serverless e orientado a eventos**, com o seguinte fluxo:
+
+1. Usuários realizam requisições ou enviam dados
+2. Eventos acionam funções no AWS Lambda
+3. O Lambda processa as informações sob demanda
+4. Os dados são armazenados no Amazon S3
+5. O S3 aplica automaticamente políticas de otimização com Intelligent-Tiering
+6. O AWS Compute Optimizer analisa o uso da infraestrutura e recomenda melhorias
+
+Essa abordagem elimina a necessidade de servidores em execução contínua, adotando o modelo **pay-as-you-go**.
+
+---
+
+## 🚀 Serviços AWS Utilizados
+
+### 🔹 AWS Lambda
+- Execução de código sob demanda (serverless)
+- Elimina custos com servidores ociosos
+- Escalabilidade automática
+
+### 🔹 Amazon S3 Intelligent-Tiering
+- Armazenamento com movimentação automática entre camadas
+- Redução de custos com dados pouco acessados
+- Alta disponibilidade sem gerenciamento manual
+
+### 🔹 AWS Compute Optimizer
+- Análise de uso com Machine Learning
+- Identificação de recursos superdimensionados
+- Recomendações para redução de custos
+
+---
+
+## 📂 Estrutura do Repositório
+
+- `relatorio.md`: Documentação detalhada da implementação e casos de uso
+
+---
+
+## 📄 Como Visualizar o Relatório
+
+Acesse o relatório completo no link abaixo:
+
+🔗 **Visualizar Relatório de Implementação**
+
+---
+
+## 👨‍💻 Autor
+
+**Rodrigo Silva da Luz**  
+Estudante de Ciência da Computação (UFRPE)  
+Entusiasta de Cloud Computing
+
+---
+
+## 📈 Considerações Finais
+
+Este projeto demonstra como a adoção de serviços gerenciados e arquiteturas modernas pode gerar ganhos reais em eficiência operacional e redução de custos, aplicando conceitos de FinOps em ambientes cloud.
