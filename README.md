@@ -31,12 +31,12 @@ Essa abordagem elimina a necessidade de servidores em execução contínua, adot
 
 ## Serviços AWS Utilizados
 
-### 🔹 AWS Lambda
+### AWS Lambda
 - Execução de código sob demanda (serverless)
 - Elimina custos com servidores ociosos
 - Escalabilidade automática
 
-### 🔹 Amazon S3 Intelligent-Tiering
+### Amazon S3 Intelligent-Tiering
 - Armazenamento com movimentação automática entre camadas
 - Redução de custos com dados pouco acessados
 - Alta disponibilidade sem gerenciamento manual
